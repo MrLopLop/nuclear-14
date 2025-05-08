@@ -12,7 +12,7 @@ jobs:
   build:
     name: YAML Linter
     if: github.actor != 'PJBot' && github.event.pull_request.draft == false && github.actor != 'DeltaV-Bot' && github.actor != 'SimpleStation14'
-    runs-on: [VK-Cloud]
+    runs-on: [self-hosted, VK-Cloud]
     steps:
       - uses: actions/checkout@v3.6.0
       - name: Setup submodule
