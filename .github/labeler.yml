@@ -23,7 +23,7 @@
       - "**/*.xml"
       - "**/*.md"
 
-"Changes: Localization":
+"Changes: Localization": #fds
   - changed-files:
     - any-glob-to-any-file: 'Resources/Locale/**/*.ftl'
 
